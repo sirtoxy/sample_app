@@ -2,8 +2,11 @@
 db/*.sqlite3
 log/*.log
 tmp/**/*
-doc/*
+doc/**
 Gemfile.lock
 *.swp
 *~
 .DS_Store
+autotest/**
+spork/**
+
