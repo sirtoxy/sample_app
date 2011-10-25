@@ -1,0 +1,37 @@
+.container{ width:710px;}
+body{ background-color: #CCFFFF;}
+
+header{ padding-top:20px}
+header img{ padding:1em; background-color: #FFFFFF}
+
+section{ margin-top:1em; font-size:120%; padding:20px; background-color: #FFFFFF}
+
+/*Links*/
+a {color: #09C; text-decoration: none}
+a:hover { text-decoration: underline; color:#069}
+a:visited {color: #069}
+
+/*Navigation*/
+nav{ float: right; background-color: #FFFFFF; padding: 0 0.7em; white-space: nowrap;}
+nav ul { margin: 0; padding: 0}
+nav ul li { list-style: none; display: inline-block; padding: 0.2em 0 }
+
+nav ul li a { padding: 0 5px; font-weight: bold}
+nav ul li a:visited {color:#09c }
+nav ul li a:hover {text-decoration: underline}
+
+a.signup_button{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	width: 190px;
+	color: #FFFFFF;
+	background: #006400; 
+	font-size: 150%;
+	font-weight: bold;
+	padding: 20px;	
+}
+
+/*Round*/
+.round{ border-radius: 10px}
