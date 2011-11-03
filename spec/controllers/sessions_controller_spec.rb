@@ -40,6 +40,25 @@ describe SessionsController do
       end
       
     end
+    
+    describe "success" do
+      
+      before(:each) do
+        @user = Factory(:user)
+        @attr = {:email => @user.email, :password => @user.password}
+      end
+      
+      it "should sign user in" do
+        post :create, :session => @attr
+        #TODO
+      end
+      
+      it "should redirect to user show page" do
+        post :create, :session => @attr
+        response.should redirect_to(user_path(@user))
+      end
+       
+    end 
   end
 
 end
